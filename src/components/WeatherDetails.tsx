@@ -19,17 +19,6 @@ const WeatherDetails: React.FC<{
   country,
   sunset,
 }) => {
-  /*  {
-    temp,
-    humidity,
-    pressure,
-    weatherType,
-    name,
-    speed,
-    country,
-    sunset,
-  } = tempInfo; */
-
   const [weatherState, setWeatherState] = useState('');
   useEffect(() => {
     if (weatherType) {
